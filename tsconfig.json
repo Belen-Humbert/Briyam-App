@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "lib": ["es2015", "dom"],
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@api/*": [
+        "./api/*"
+      ],
+      "@hooks/*": [
+        "./hooks/*"
+      ],
+      "@images/*": [
+        "./assets/images/*"
+      ],
+      "@root/*": [
+        "./*"
+      ],
+      "@components/*": [
+        "./components/*"
+      ],
+      "@app/*": [
+        "./app/*"
+      ],
+      "@styles/*": [
+        "./styles/*"
+      ],
+      "@types/*": [
+        "./types/*"
+      ],
+      "@props/*": [
+        "./props/*"
+      ],
+      "@utils/*": [
+        "./utils/*"
+      ],
+      "@services/*": [
+        "./services/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
